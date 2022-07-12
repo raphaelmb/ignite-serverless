@@ -105,7 +105,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
     statusCode: 201,
     body: JSON.stringify({
       message: "Certificate created successfully.",
-      url: ``, // Insert certificate `url/${id}`
+      url: ``, // Insert certificate url ex: `url/${id}`
     }),
   };
 };
